@@ -1,0 +1,20 @@
+{
+  "coupon-button": {
+    "component": "CouponButton",
+    "content": {
+      "properties": {
+        "label": {
+          "title": "Texto do botão",
+          "type": "string",
+          "default": "Cupom"
+        },
+        "couponCode": {
+          "title": "Código do cupom",
+          "description": "Mesmo código de cupom cadastrado na promoção na VTEX.",
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  }
+}
